@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Servicios - Huerto Feliz</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success py-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="background" style="filter: brightness(50%);"></div>
+
+    <header class="text-center text-white bg-success py-5">
+    <h1>Nuestros Servicios</h1>
+    <p>Conoce lo que ofrecemos para tu jardín</p>
+  </header>
+
+  <section class="container my-3">
+    <div class="logo">
+        <a href="index.html">
+            <img src="imgs/logo.png" alt="Huerto Feliz">
+        </a>
+  </div>
+  </section>
+
+  <section class="container my-5">
+  <div id="serviciosCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active text-center">
+        <img src="imgs/corte-de-pasto.png" class="img-fluid rounded mx-auto d-block" alt="Corte de pasto" style="width:300px; height:200px; object-fit:cover;">
+        <div class="carousel-caption bg-dark bg-opacity-50 rounded">
+            <h5>Corte de pasto</h5>
+            <p>¿Necesitas que alguien corte el pasto de tu casa?</p>
+            <p>Precio base: $10.000</p>
+          </div>
+        </div>
+      <div class="carousel-item text-center">
+        <img src="imgs/poda-arboles.png" class="img-fluid rounded mx-auto d-block" alt="Poda de árboles" style="width:300px; height:200px; object-fit:cover;">
+        <div class="carousel-caption bg-dark bg-opacity-50 rounded">
+            <h5>Poda de árboles</h5>
+            <p>¡Nos encargamos de podar los arboles que te estorben!</p>
+            <p>Precio base: $35.000</p>
+          </div>
+        </div>
+      <div class="carousel-item text-center">
+        <img src="imgs/riego.png" class="img-fluid rounded mx-auto d-block" alt="Instalación de riego" style="width:300px; height:200px; object-fit:cover;">
+        <div class="carousel-caption bg-dark bg-opacity-50 rounded">
+            <h5>Instalación de riego</h5>
+            <p>¿Buscas automatizar tus cultivos? ¡Nuestros profesionales se encargan!</p>
+            <p>Precio base: $20.000</p>
+            </div>
+        </div>
+        
+      <div class="carousel-item text-center">
+        <img src="imgs/huerto.png" class="img-fluid rounded mx-auto d-block shadow" alt="Mantención de huerto en interiores" style="width:300px; height:200px; object-fit:cover;">
+        <div class="carousel-caption bg-dark bg-opacity-50 rounded">
+                <h5>Mantención de huerto en interiores</h5>
+                <p>¿No tienes tiempo para dedicar a tu huerto? ¡Dejanoslo a nosotros!</p>
+                <p>Precio base: $10.000</p>
+        </div>
+     </div>
+     </div>
+
+         <button class="carousel-control-prev" type="button" data-bs-target="#serviciosCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#serviciosCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</section>
+
+  <div class="text-center my-3">
+    <div class="solicitud"></div>
+     <a href="contacto.html" class="btn btn-lg btn-success">Solicita ya!</a>
+</div>
+
+<footer class="bg-success text-white text-center py-3 fixed-bottom">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+    <div>
+      <i class="bi bi-telephone-fill"></i> +56 9 1234 5678
+    </div>
+    <div>
+      <i class="bi bi-envelope-fill"></i> contacto@huertofeliz.cl
+    </div>
+    <div>
+      <i class="bi bi-facebook"></i> Huerto Feliz 
+      <i class="bi bi-instagram ms-2"></i> @huertofeliz
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</body>
+</html>
+
